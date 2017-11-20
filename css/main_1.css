@@ -33,14 +33,22 @@ a:hover {
 
 /*p, ul { font-size: 1.5em; line-height: 1.4em; color: #fff; }*/
 p { font-size: 1.25em; line-height: 1.2em; color: #fff; font-weight: 200; text-align: justify;}
+p2{ font-size: 1.0em; line-height: 0.9em; color: #fff; font-weight: 200; text-align: justify; margin-right: 20px}
 ul { font-size: 1.5em; line-height: 1.4em; color: #fff;}
 
 h1, h2, h3, h4 { font-family: 'Lato', 'Sans-Serif';
                 font-weight:300; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+h3 { font-size: 2.3em;}
+h4 { font-size: 1.9em; margin-top: 0.8em; margin-bottom: 0.8em;}
+
+papertitle {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 700
+}
+
 
 h5{ font-family: 'Lato', 'Sans-Serif';font-weight:300; font-size: 3em; text-align: center; margin-top: 0.8em; margin-bottom: 0.8em;}
 
