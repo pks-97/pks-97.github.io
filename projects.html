@@ -9,32 +9,8 @@
     </head>
     <body>
         <h4> Research </h4>
-        
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-          <tr>
-            <td width="25%">
-              <div class="one">
-              <!-- <div class="two"><img src='friendly_after.png'></div> -->
-              <img src='/assets/Research/depth_map_low.png' style="width:240px;height:120px;">
-              </div>
-              <!-- <script type="text/javascript">
-              function friendly_start() {
-              document.getElementById('friendly_image').style.opacity = "1";
-              }
-              function friendly_stop() {
-              document.getElementById('friendly_image').style.opacity = "0";
-              }
-              friendly_stop()
-              </script> -->
-            </td>
-            <td valign="top" width="75%">
-                <p>Markerless Extrinsic LIDAR-Camera Calibration<br></p>
-                Ganesh Iyer*, <a href="https://karnikram.info">Karnik Ram*</a>, <a href="http://krrish94.github.io/">Krishna Murthy</a>, <a href="http://robotics.iiit.ac.in/">Dr K. Madhava Krishna</a><br>
-              <i>Robotics Research Center, IIIT-H</i><p2>   [In Progress]</p2><br><br>
-              <p2>Online Extrinisic Calibration of LIDAR Point Clouds and Camera frames in the context of Self-Driving Vehicles. Alignment using 3D Spatial Transformer Networks by minimizing the Photometric Warp Error. Refinement using Non-linear Pose Optimization. </p2>
-            </td>
-          </tr>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="25%">
               <div class="one">
@@ -45,9 +21,25 @@
             <td valign="top" width="75%">
                 <p>Recurrent Self-Supervision in Deep Monocular Visual Odometry<br></p>
                 Ganesh Iyer, <a href="http://krrish94.github.io/">Krishna Murthy</a>, <a href="http://robotics.iiit.ac.in/">Dr K. Madhava Krishna</a><br>
+                <anchor id="p_research_calib" href=''></anchor>
               <i>Robotics Research Center, IIIT-H</i><p2>   [In Progress]</p2><br><br>
               <p2>Learning to predict camera pose transformations using Recurrent Deep Convolutional Networks and geometric and Lie Algebraic constraints. We explore the use of Recurrence in 3D Spatial Transformers to learn from multiple views and predict smooth transformation trajectories that minimize the photometric error over the sequence.
               </p2>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%">
+              <div class="one">
+              <!-- <div class="two"><img src='friendly_after.png'></div> -->
+              <img src='/assets/Research/depth_map_low.png' style="width:240px;height:120px;">
+              </div>
+            </td>
+            <td valign="top" width="75%">
+                <p>Markerless Extrinsic LIDAR-Camera Calibration<br></p>
+                Ganesh Iyer*, <a href="https://karnikram.info">Karnik Ram*</a>, <a href="http://krrish94.github.io/">Krishna Murthy</a>, <a href="http://robotics.iiit.ac.in/">Dr K. Madhava Krishna</a><br>
+              <i>Robotics Research Center, IIIT-H</i><p2>   [In Progress]</p2><br><br>
+              <anchor id="p_swaayatt_stereo" href=''></anchor>
+              <p2>Online Extrinisic Calibration of LIDAR Point Clouds and Camera frames in the context of Self-Driving Vehicles. Alignment using 3D Spatial Transformer Networks by minimizing the Photometric Warp Error. Refinement using Non-linear Pose Optimization. </p2>
             </td>
           </tr>
       </table>
@@ -61,6 +53,7 @@
             </div>
           </td>
           <td valign="top" width="75%">
+            <anchor id="p_swaayatt_facepose" href=''></anchor>
             <p>Stereo Pipeline: Deep Convolutional Network, Semi-Global Matching and Pointcloud Reconstruction<br></p>
             <i>Swaayatt Robots, India</i><br>
             <!-- <a href="https://sampa.cs.washington.edu/projects/vr-hw.html">project page</a> -->
@@ -75,6 +68,7 @@
             </div>
           </td>
           <td valign="top" width="75%">
+            <anchor id="p_swaayatt_tracker" href=''></anchor>
             <p>RGBD Facial Pose tracking for Advanced Driver Assistance Systems<br></p>
             <i>Swaayatt Robots, India</i><br>
             <p2>Point Cloud Processing package for tracking the face pose and central axis of gaze for RGBD based Advanced Driver
@@ -82,6 +76,7 @@
 
           </td>
         </tr>
+
         <tr>
           <td width="25%">
             <div class="one">
@@ -89,6 +84,7 @@
             </div>
           </td>
           <td valign="top" width="75%">
+            <anchor id="p_embedded1" href=''></anchor>
             <p>Tracking and Segmentation of Vehicles for Annotation<br></p>
             <i>Swaayatt Robots, India</i><br>
             <p2>Annotation system for vehicle detection data. Propogating selected keypoints and feature points within vehicle boundaries using multi-scale template matching and particle filters. Results in a scale-changing contour of vehicles to be segmented. </p2>
@@ -101,6 +97,7 @@
             </div>
           </td>
           <td valign="top" width="75%">
+            <anchor id="p_embedded2" href=''></anchor>
             <p>Telepresence Robot with Stereoscopic Vision<br></p>
             <i>Final Year Project, TCET, Mumbai University</i><br>
             <p2>Small scale and inexpensive telepresence platform capable of streaming immersive 3D SBS live video feed (350x350 resolution, 40 fps). Base platform actuated using AtMega2560 and keyboard/console commands. Raspberry Pi with camera module receives axis-angle commands from smartphone to control a 2-DOF servo-gimbal.<br>
@@ -115,7 +112,7 @@
             </div>
           </td>
           <td valign="top" width="75%">
-            <p>Grid Traversal Robots<br></p>
+            <p>Grid Traversing Robots<br></p>
             <i>eYantra Lab Setup Initiative, TCET, Mumbai University</i><br>
             <p2>1. Minesweeping Robot: Traverses a small grid to locate basic obstacles (mines) and display their co-ordinate locations after reaching the end point. Breadth First Search and Djikstras' Algorithms based traversal are demonstrated.<br><br>
             2. Warehouse Management Simulation: Implementation of a small scale automated supply chain using order picking algorithms. Objects are collected, sorted based on a requirement (eg. color) and then transported to the specified destination zone.<br><br>

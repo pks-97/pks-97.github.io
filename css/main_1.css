@@ -31,6 +31,12 @@ a:hover {
   text-decoration: underline;
 }
 
+anchor{
+    line-height: 0;
+    font-size: 0;
+    color: transparent; 
+}
+
 /*p, ul { font-size: 1.5em; line-height: 1.4em; color: #fff; }*/
 p { font-size: 1.25em; line-height: 1.2em; color: #fff; font-weight: 200; text-align: justify;}
 p2{ font-size: 1.0em; line-height: 0.9em; color: #fff; font-weight: 200; text-align: justify; margin-right: 20px}
