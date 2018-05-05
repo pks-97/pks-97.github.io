@@ -1,4 +1,7 @@
+/* <style> */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* </style>  */
 
 /*body {
   font-family: "Lato", sans-serif;
@@ -40,6 +43,7 @@ anchor{
 /*p, ul { font-size: 1.5em; line-height: 1.4em; color: #fff; }*/
 p { font-size: 1.25em; line-height: 1.2em; color: #fff; font-weight: 200; text-align: justify;}
 p2{ font-size: 1.0em; line-height: 0.9em; color: #fff; font-weight: 200; text-align: justify; margin-right: 20px}
+p3{ font-size: 1.25em; line-height: 1.2em; color: #fff; font-weight: 200; text-align: justify;color:#DDDDDD}
 ul { font-size: 1.5em; line-height: 1.4em; color: #fff;}
 
 h1, h2, h3, h4 { font-family: 'Lato', 'Sans-Serif';
@@ -57,7 +61,11 @@ font-weight: 700
 
 
 h5{ font-family: 'Lato', 'Sans-Serif';font-weight:300; font-size: 3em; text-align: center; margin-top: 0.8em; margin-bottom: 0.8em;}
+h6{ font-family: 'Roboto Condensed', 'Lato', 'Sans-Serif';font-weight:300; font-size: 1.5em; text-align: left; margin-top: 0.8em; margin-bottom: 0.8em; color: #FF851B}
 
+newstable li{
+  font-family: "Lato"; font-size: 1.25em; line-height: 1.2em; color: #fff; font-weight: 200; text-align: justify;  -webkit-font-smoothing: antialiased;
+}
 
 /*nav ul{ font-size: 1.5em; font-family: 'Lato', 'Arial', 'Sans-Serif'; padding: 20px; list-style: none; text-align: center;}*/
 nav ul{ font-size: 1.5em; font-family: 'Lato', 'Arial', 'Sans-Serif'; padding: 20px;list-style: none; text-align: center; margin-top: 10px;}
