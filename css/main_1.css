@@ -24,6 +24,11 @@ a {
   color: #fff;
 }
 
+/* a.right
+{
+  color: #7fdbff;
+  text-align: right;
+} */
 
 a:link, a:visited{
   color: #7fdbff;
