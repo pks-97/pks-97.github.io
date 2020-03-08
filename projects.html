@@ -19,13 +19,30 @@
 		</nav>
 
         <h4> Research </h4>
-
+        
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          
           <tr>
               <td width="25%">
                 <div class="one">
                 <!-- <div class="two"><img src='friendly_after.png'></div> -->
-                <img src='/assets/Research/depth_map_low.png' style="width:240px;height:140px;">
+                <img src='/assets/Research/gradslam.gif' style="width:240px;height:140px;">
+                </div>
+              </td>
+              <td valign="top" width="75%">
+                  <p>gradSLAM: Dense SLAM meets automatic differentiation<br></p>
+                  <a href="http://krrish94.github.io/">Krishna Murthy</a>, Ganesh Iyer, <a href="http://liampaull.ca/">Liam Paull</a><br> 
+                <i>Robotics Institute, Carnegie Mellon University | Robotics and Embodied AI Lab, Université de Montréal, MILA</i><p2>   [Accepted to ICRA 2020]</p2><br><br>          
+                <p2>gradSLAM is a fully differentiable dense Simultaneous Localization and Mapping (SLAM) system. The central idea of gradslam is to construct computational graphs that can connect the various components of SLAM systems. By creating differentiable alternatives to traditionally non-differentiable components of SLAM such as optimization, odometry estimation, raycasting, and map fusion, we enable the backpropogation of error gradients from 3D map elements to sensor observations, such as 2D image pixels. Further, we implement differentiable variants of dense SLAM systems that operate on voxels, surfels, and pointclouds respectively. Therefore, we successfully demonstrate a method to denote the contribution of each pixel towards the eventual 3D reconstruction and hope that this can successfully encode spatial-understanding into future gradient-based learning architectures. <a href="http://montrealrobotics.ca/gradSLAM/">[Project Page]</a> <a href="https://arxiv.org/pdf/1910.10672.pdf">[Paper]</a> <br></p2>
+              </td>
+          </tr>
+          <tr>
+
+          <tr>
+              <td width="25%">
+                <div class="one">
+                <!-- <div class="two"><img src='friendly_after.png'></div> -->
+                <img src='/assets/Research/calibnet.gif' style="width:240px;height:140px;">
                 </div>
               </td>
               <td valign="top" width="75%">
@@ -36,6 +53,7 @@
                 <p2>CalibNet is a self-supervised deep network capable of automatically estimating the 6-DoF rigid body transformation for extrinsic calibration between a 3D LiDAR and a 2D camera in real-time, by maximizing the photometric and geometric consistency between the input images and point clouds. <a href="https://epiception.github.io/CalibNet/">[Project Page]</a> <a href="https://arxiv.org/abs/1803.08181">[Paper]</a> <br></p2>
               </td>
           </tr>
+
           <tr>
             <td width="25%">
               <div class="one">
@@ -54,8 +72,57 @@
             </td>
           </tr>
       </table>
+
       <h4> Projects </h4>
+
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        
+        <tr>
+            <td width="25%">
+              <div class="one">
+                  <iframe width="240" height="150" src="https://www.youtube.com/embed/jfqZsi48lsk" frameborder="0" gesture="media"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+                <anchor id="p_main" href=''></anchor>
+              <p> Team R.A.M.S: Robust Aerial Manipulation System<br></p>
+              <i>Capstone Project | MBZIRC Challenge 2020,  Carnegie Mellon University</i><br>
+              <p2>Participated in the design and development of an aerial manipulation platform capable of recognizing objects and lifting targeted payloads
+                  upto 1.5kg using an onboard perception subsystem and visual servoing.<br>
+              Check out our work! : <a href="https://mrsdprojects.ri.cmu.edu/2018teamc/">[Project Page]</a> | <a href="https://mrsdprojects.ri.cmu.edu/2018teamc/media/">[Demos]</a><br></p2>
+            </td>
+          </tr>
+
+        <tr>
+            <td width="25%">
+              <div class="one">
+                  <iframe width="240" height="150" src="https://www.youtube.com/embed/NoQE2QCoc9o" frameborder="0" gesture="media"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <anchor id="p_embedded2" href=''></anchor>
+              <p>Chefbot: Learning Manipulation Skill Models for the kitchen<br></p>
+              <i>Carnegie Mellon University</i><br>
+              <p2>Developing an unsupervised learning based framework that predicts the effects of simple manipulation skills on deformable objects like vegetables and dough. Currently being tested on the FRANKA EMIKA Panda arm.<br>
+            </td>
+          </tr>
+
+        <tr>
+          <td width="25%">
+            <div class="one">
+            <!-- <div class="two"><img src='friendly_after.png'></div> -->
+            <img src='/assets/Projects/eventvo.png' style="width:240px;height:120px;">
+            </div>
+          </td>
+          <td valign="top" width="75%">
+            <p>DeepEvent-VO: Fusing Intensity Images and Event Streams for End-to-End Visual Odometry<br></p>
+            <i>Carnegie Mellon University</i><br>
+            <!-- <a href="https://sampa.cs.washington.edu/projects/vr-hw.html">project page</a> -->
+            <p2>Designed a recurrent convolutional network that fuses intensity and event based image feature streams to make continuous visual odometry predictions for high speed applications using event-based cameras.<br>
+            Open Source Code: <a href="https://github.com/SuhitK/DeepEvent-VO">[Github Repository]</a> | Report: <a href="/assets/Projects/deep_event_vo.pdf">[Link]</a><br></p2>
+          </td>
+        </tr>
+
         <tr>
           <td width="25%">
             <div class="one">
@@ -68,10 +135,11 @@
             <p>Stereo Pipeline: Deep Convolutional Network, Semi-Global Matching and Pointcloud Reconstruction<br></p>
             <i>Swaayatt Robots, India</i><br>
             <!-- <a href="https://sampa.cs.washington.edu/projects/vr-hw.html">project page</a> -->
-            <p2>Implementation and Improvement of pipeline in <a href = "http://jmlr.csail.mit.edu/papers/volume17/15-535/15-535.pdf">Zbontar et. al.</a> for fast Disparity Map Computation. Point Cloud Reconstruction of output Depth Map.<br>
+            <p2>Implementation and Improvement of pipeline in <a href = "http://jmlr.csail.mit.edu/papers/volume17/15-535/15-535.pdf">Zbontar et. al.</a> for fast Disparity Map Computation and point cloud reconstruction of output Depth Map.<br>
             Open Source Code: <a href="https://github.com/epiception/theano-mc-cnn">[Deep Network]</a> | <a href="https://github.com/epiception/SGM-Census">[Census Transform and Semi-Global Matching]</a><br></p2>
           </td>
         </tr>
+
         <tr>
           <td width="25%">
             <div class="one">
@@ -101,6 +169,7 @@
             <p2>Annotation system for vehicle detection data. Propogating selected keypoints and feature points within vehicle boundaries using multi-scale template matching and particle filters. Results in a scale-changing contour of vehicles to be segmented. </p2>
           </td>
         </tr>
+
         <tr>
           <td width="25%">
             <div class="one">
@@ -115,6 +184,7 @@
             Code: <a href="https://github.com/epiception/Virtual-Telepresence">[Telepresence bot]</a><br></p2>
           </td>
         </tr>
+
         <tr>
           <td width="25%">
             <div class="one">

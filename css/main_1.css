@@ -170,18 +170,7 @@ img {
 .fa-facebook:hover {
   background-color: #3d5b99;
 }
-.fa-twitter {
-  padding: 10px 12px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-twitter:hover {
-  background-color: #00aced;
-}
+
 .fa-rss {
   padding: 10px 14px;
   -o-transition: 0.5s;
@@ -194,6 +183,20 @@ img {
 .fa-rss:hover {
   background-color: #eb8231;
 }*/
+
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
 .fa-youtube {
   padding: 10px 14px;
   -o-transition: 0.5s;
