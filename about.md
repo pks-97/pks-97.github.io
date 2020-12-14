@@ -4,5 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 permalink: /about/
-The page is shifted to this [pks-97.github.io](site)
+The page is shifted to this [site](pks-97.github.io)
 ---
