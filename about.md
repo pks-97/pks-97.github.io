@@ -1,2 +1,2 @@
-The page is shifted to this [site](pks-97.github.io)
+The page has shifted to this [site](pks-97.github.io)
 ---
